@@ -1,0 +1,7 @@
+.thumbnail {
+  /* position: absolute; */
+  margin-left: 50%;
+  transform: translateX(-50%);
+  transform-style: preserve-3d;
+  /* transition: filter 0.25s; */
+}

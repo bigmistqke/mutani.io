@@ -1,0 +1,15 @@
+.frame {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  overflow: hidden;
+  /* opacity: 0; */
+  transition: opacity 1s;
+}
+
+.frame > * {
+  pointer-events: all;
+}

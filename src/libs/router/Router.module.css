@@ -1,0 +1,7 @@
+.transition {
+  pointer-events: none;
+}
+
+.transition > * {
+  pointer-events: all;
+}
